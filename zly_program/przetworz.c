@@ -69,9 +69,9 @@ int RozmiarNajdluzszegoSlowa(char* Tekst)
 void ZamienNaPodkreslenie(char* Tekst)
 {
   for (; *Tekst; ++Tekst)
-      if (*Tekst == ' ') *Tekst = '_';
+    if (*Tekst == ' ') *Tekst = '_';
+ 
 }
-
 
 
 /*
@@ -125,7 +125,7 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;
