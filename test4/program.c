@@ -2,7 +2,7 @@
 
 
 double Dodaj();
-
+/* dla jezyka c program działa poprawnie a w c++ w deklaracja funkcji powinna wyglądać tak: Dodaj(double, double) */
 
 int main( )
 {
