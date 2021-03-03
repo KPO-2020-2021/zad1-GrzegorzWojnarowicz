@@ -11,7 +11,7 @@ struct TrojmianKw {
 
 typedef struct TrojmianKw  TrojmianKw;
 
-
+/* w języku c należy podczas kompilacji dodać bibliotekę matematyczną ( -lm ), w c++ nie ma takiej potrzeby */
 
 int main() {
   TrojmianKw   TKw;
