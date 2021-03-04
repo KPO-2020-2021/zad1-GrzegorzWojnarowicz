@@ -32,7 +32,7 @@ int main()
   int  *TabKodow = (int*)malloc(Rozmiar);
   char *TabZnakow = (char*)malloc(IloscKodow*sizeof(char)); 
   char *Napis = strdup("Cze�� �wiecie!!! �ycz� mi�ego dnia.");
-  /* program działa tak samo w c i c++ */
+  /* program działa tak samo w c i c++, w c ' jest traktowany jako int, dlatego powinno być sizeof(int) a w c++ sizeof(char) */
   TabKodow[0] = '�';     TabZnakow[0] = 'c';
   TabKodow[1] = '�';     TabZnakow[1] = 'e';
   TabKodow[2] = '�';     TabZnakow[2] = 'l';
