@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* kompiluje się w gcc, natomiast w g++ nie */
+/* w c extern działa poprawnie, a w c++ stwierdza że jest niezdefiniowana referencja do zmiennych */
 
 extern const double PI;
 extern const double E;
